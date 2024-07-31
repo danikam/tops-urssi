@@ -26,9 +26,6 @@ def test_multiply():
     ([1.5, 2.5, 3.5], 2.5)
     ])
 
-def test_mean():
-    assert mean()
-
 def test_mean(numbers, expected):
     if numbers:
         assert mean(numbers) == expected
